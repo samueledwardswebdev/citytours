@@ -328,32 +328,33 @@ footer {
 footer .container {
   background: var(--off-white);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
+  text-align: center;
 }
+
 
 footer .container h4 {
   text-align: center;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 footer .container ul {
   list-style: none;
   text-align: left;
+
 }
 
 footer .container ul li {
   text-align: center;
+  margin: 8px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid lightgray;
 }
 
-footer .container i {
-  margin: 0 3px;
-  transition: 0.5s ease all;
-}
-
-footer .container i:hover {
-  color: var(--primary-color);
+footer .container .box a {
+  text-decoration: none;
 }
 
 footer h1 {
@@ -369,6 +370,21 @@ footer h1 i{
 footer p {
   text-align: center;
   padding: 0.5rem;
+}
+
+.social {
+  color: var(--dark-color);
+  text-align: center;
+  padding: 1rem;
+}
+
+.social i {
+  padding: 0 5px;
+  transition: all ease 0.5s;
+}
+
+.social i:hover {
+  color: var(--primary-color);
 }
 
 
