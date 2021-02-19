@@ -385,8 +385,8 @@ footer p {
    text-align: center;
  }
 
- .navbar ul {
-   margin-right: 0;
+ .header-container .navbar ul {
+   margin-right:0;
  }
 
  .showcase {
