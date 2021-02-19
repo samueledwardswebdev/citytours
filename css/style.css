@@ -90,7 +90,7 @@ img {
 .header-container .navbar ul {
   display: flex;
   list-style: none;
-  margin-right: 40px;
+  margin: 0 20px;
 }
 
 .header-container .navbar ul li a {
@@ -383,10 +383,6 @@ footer p {
    justify-content: center;
    align-items: center;
    text-align: center;
- }
-
- .header-container .navbar ul {
-   margin-right:0;
  }
 
  .showcase {
